@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100xDevs</title>
+    <script src="https://kit.fontawesome.com/61861f6d31.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="harikarat.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="harikarat.jpeg">
+        </div>
+        <div class="right">
+            <form class="search">
+                <input type="text" name="search" id="search" placeholder="Type to search...">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <button class="btn">Signup</button>
+            <button class="btn">Login</button>
+        </div>
+    </header>
+    <div class="head">
+        <div class="left-d">
+            <div class="content">
+                <h3>Main Menu</h3>
+                <ul>
+                    <li><a href="./index.html"><i class="fa-solid fa-house fa-lg"></i> &nbsp;Home</a></li>
+                    <li><a href="./course.html"><i class="fa-solid fa-graduation-cap fa-lg"></i> &nbsp;Courses</a></li>
+                    <li class="blue"><a href=""><i class="fa-solid fa-bag-shopping fa-xl"></i> &nbsp;Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-d">
+            <div class="smallcontainer cartpage">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Sub Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <!-- Cart items will be rendered here dynamically -->
+                    </tbody>
+                </table>
+                <div class="total">
+                    <table>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td id="subtotal">₹0.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax</td>
+                            <td id="tax">₹0.00</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td id="total-price">₹0.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="btn" id="clear-cart">Clear Cart</button>
+                <button class="btn" id="buy-now">Buy Now</button>
+            </div>
+            <div class="center-foot">
+                <div class="footer">
+                    <div class="foot-3 extra">
+                        <img src="hari2.jpeg" class="foot-img">
+                    </div>
+                    <div class="foot-3 flexy">
+                        <h4>Quick Links</h4>
+                        <p>
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Refunds & Cancellation Policy</a>
+                        </p>
+                    </div>
+                    <div class="foot-3 flexy-2">
+                        <h4>Download App</h4>
+                        <img src="google.png" alt="" class="google">
+                        <h4>Follow Us</h4>
+                        <div>
+                            <i class="fa-brands fa-x-twitter fa-lg"></i>
+                            <i class="fa-solid fa-location-dot fa-lg"></i>
+                            <i class="fa-brands fa-youtube fa-lg"></i>
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                        </div>
+                        <p id="amaz"><span>Powered By</span> <img src="teachcode-logo.png" alt="" class="teachcode"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script> <!-- Link to the JS file -->
+</body>
+</html>

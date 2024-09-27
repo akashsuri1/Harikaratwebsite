@@ -23,8 +23,8 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
-            <button class="btn">Signup</button>
-            <button class="btn">Login</button>
+            <button class="btn"><a href="./signup.html">Signup</a></button>
+            <button class="btn"><a href="./login.html">Login</a></button>
         </div>
     </header>
     <div class="head">
@@ -32,12 +32,13 @@
             <div class="content">
                 <h3>Main Menu</h3>
                 <ul>
-                    <li><i class="fa-solid fa-house fa-lg"></i> &nbsp;Home</li>
-                    <li class="blue"><i class="fa-solid fa-graduation-cap fa-lg"></i> &nbsp;Courses</li>
+                    <li><a href="./index.html"><i class="fa-solid fa-house fa-lg"></i> &nbsp;Home</a></li>
+                    <li class="blue"><a href="./course.html"><i class="fa-solid fa-graduation-cap fa-lg"></i> &nbsp;Courses</a></li>
+                    <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping fa-xl"></i> &nbsp;Cart</a></li>
                 </ul>
             </div>
         </div>
-        <div class="right-d">
+        <!-- <div class="right-d">
             <div class="center">
                 Courses
             </div>
@@ -174,8 +175,13 @@
                     </div>
                 </div>
             
-            </div>
-            <div class="center-foot">
+            </div>  -->
+             <div class="right-d">
+                <div class="center">
+                    Courses
+                </div>
+                <div id="courses-container"></div>
+                <div class="center-foot">
                 <div class="footer">
                     <div class="foot-3 extra">
                         <img src="hari2.jpeg" class="foot-img">
@@ -203,7 +209,9 @@
                 </div>
             </div>
 
+            </div>
         </div>
     </div>
+    <script src="course.js"></script>
 </body>
 </html>
